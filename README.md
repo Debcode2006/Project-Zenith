@@ -485,11 +485,14 @@ All backend endpoints are exposed under the `/api` namespace. The frontend prima
 
 ## Screenshots
 
-> _Add captured screenshots to `assets/screenshots/` and reference them here._
+<p align="center">
+  <img src="./assets/screenshots/landing_page.png" width="48%" />
+  <img src="./assets/screenshots/search.png" width="48%" />
+</p>
 
-| Globe & Dashboard | Timeline Simulation | Sky Narration |
-|:---:|:---:|:---:|
-| _placeholder_ | _placeholder_ | _placeholder_ |
+<p align="center">
+  <img src="./assets/screenshots/events.png" width="80%" />
+</p>
 
 ---
 
