@@ -16,10 +16,9 @@ Built by **Team Juno** for **AstralWeb Innovate 2026**.
 
 </div>
 
-```
-
 ## Table of Contents
 
+```
 Cover
 │
 ├── Project Overview
