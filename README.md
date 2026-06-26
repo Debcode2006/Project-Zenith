@@ -67,6 +67,8 @@ all computed from **real, live data sources**.
 It was built for **AstralWeb Innovate 2026**, a national-level web-development challenge themed around
 visualizing real-time celestial activity above any location on Earth.
 
+**Live Demo:** https://project-zenith-mocha.vercel.app/
+
 ## Problem Statement
 
 Understanding what's in the sky above you is surprisingly hard. The data exists, but it is:
