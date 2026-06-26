@@ -407,7 +407,7 @@ cp .env.local.example .env.local
 
 **Frontend environment variables** (`frontend/.env.local`):
 
-| Variable | Required | Description |
+| Variable | Default | Description |
 |----------|:--------:|-------------|
 | `NEXT_PUBLIC_API_BASE_URL` | No | Backend URL (default `http://localhost:8000`) |
 | `NEXT_PUBLIC_DATA_SOURCE` | No | `live` (default) or `mock` for fully-offline demo |
@@ -478,14 +478,17 @@ All backend endpoints are exposed under the `/api` namespace. The frontend prima
 
 ## Screenshots
 
+### Landing Page
 <p align="center">
   <img src="./assets/screenshots/landing_page.png" width="100%" />
 </p>
 
+### Location Search
 <p align="center">
   <img src="./assets/screenshots/search.png" width="100%" />
 </p>
 
+### Astronomical Events
 <p align="center">
   <img src="./assets/screenshots/events.png" width="50%" />
 </p>
@@ -534,7 +537,7 @@ The modular architecture of Project Zenith enables several future enhancements, 
 https://github.com/Debcode2006/Project-Zenith
 ```
 
-## Deployed link
+## Live Demo
 
 ```
 https://project-zenith-mocha.vercel.app/
