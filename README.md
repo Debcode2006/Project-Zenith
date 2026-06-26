@@ -1,8 +1,5 @@
 <div align="center">
 
-<!-- Project logo placeholder — drop your logo at assets/icons/logo.png -->
-<img src="assets/icons/logo.png" alt="Project Zenith logo" width="140" onerror="this.style.display='none'"/>
-
 # 🌌 Project Zenith: The Celestial Eye
 
 **Point anywhere on Earth and instantly understand everything happening in the sky above it.**
@@ -486,15 +483,15 @@ All backend endpoints are exposed under the `/api` namespace. The frontend prima
 ## Screenshots
 
 <p align="center">
-  <img src="./assets/screenshots/landing_page.png" width="50%" />
+  <img src="./assets/screenshots/landing_page.png" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/screenshots/search.png" width="50%" />
+  <img src="./assets/screenshots/search.png" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/screenshots/events.png" width="60%" />
+  <img src="./assets/screenshots/events.png" width="50%" />
 </p>
 
 ---
@@ -532,13 +529,19 @@ The modular architecture of Project Zenith enables several future enhancements, 
 | Member              | Role                                                                                       |
 | ------------------- | ------------------------------------------------------------------------------------------ |
 | **Madhurima Das**   | Project Lead, UI/UX Design, Frontend Development, Testing & Integration                    |
-| **Debanjan Sarkar** | Backend Development, API Integration, Real-Time Systems, Research, Testing & Documentation |
+| **Debanjan Sarkar** | Backend Development, API Integration, Real-Time Systems, Testing & Documentation           |
 | **Samman Das**      | Backend Development Support & Implementation Assistance                                    |
 
 ## GitHub Repository
 
 ```
 https://github.com/Debcode2006/Project-Zenith
+```
+
+## Deployed link
+
+```
+https://project-zenith-mocha.vercel.app/
 ```
 
 ## License
