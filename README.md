@@ -486,12 +486,15 @@ All backend endpoints are exposed under the `/api` namespace. The frontend prima
 ## Screenshots
 
 <p align="center">
-  <img src="./assets/screenshots/landing_page.png" width="48%" />
-  <img src="./assets/screenshots/search.png" width="48%" />
+  <img src="./assets/screenshots/landing_page.png" width="50%" />
 </p>
 
 <p align="center">
-  <img src="./assets/screenshots/events.png" width="80%" />
+  <img src="./assets/screenshots/search.png" width="50%" />
+</p>
+
+<p align="center">
+  <img src="./assets/screenshots/events.png" width="60%" />
 </p>
 
 ---
