@@ -19,7 +19,7 @@ Built by **Team Juno** for **AstralWeb Innovate 2026**.
 
 </div>
 
----
+```
 
 ## Table of Contents
 
@@ -56,7 +56,7 @@ Cover
 ├── License
 └── Acknowledgements
 
----
+```
 
 ## Project Overview
 
@@ -215,8 +215,7 @@ The implementation workflow is as follows:
 
 This modular implementation ensures high performance, fault tolerance, and maintainability while enabling future enhancements such as additional celestial objects, new data providers, and advanced visualization features with minimal architectural changes.
 
----
-
+```
 project-zenith/
 ├── assets/
 │   ├── icons/
@@ -282,7 +281,7 @@ project-zenith/
 ├── deployment_readiness_report.md
 └── release_report.md
 
----
+```
 
 ## Core Modules
 
