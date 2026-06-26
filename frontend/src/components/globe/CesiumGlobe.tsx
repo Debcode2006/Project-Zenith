@@ -56,8 +56,19 @@ export default function CesiumGlobe() {
         fullscreenButton: false,
         selectionIndicator: false,
         infoBox: false,
-        // Fall back to bundled imagery when no ion token is configured.
-        baseLayer: ionToken ? undefined : Cesium.ImageryLayer.fromWorldImagery({}),
+        // With an ion token, use the Viewer's default ion World Imagery.
+        // Without one, fall back to the Natural Earth II tiles bundled in the
+        // copied Cesium assets (/cesium/Assets/Textures/NaturalEarthII) — fully
+        // offline, no token required — instead of ion World Imagery (which needs
+        // a token and would otherwise leave the globe blank).
+        baseLayer: ionToken
+          ? undefined
+          : Cesium.ImageryLayer.fromProviderAsync(
+              Cesium.TileMapServiceImageryProvider.fromUrl(
+                Cesium.buildModuleUrl('Assets/Textures/NaturalEarthII')
+              ),
+              {}
+            ),
       });
       viewerRef.current = viewer;
 
