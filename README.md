@@ -272,11 +272,7 @@ project-zenith/
 │
 ├── .gitignore
 ├── LICENSE
-├── README.md
-├── deployment_guide.md
-├── deployment_guide.pdf
-├── deployment_readiness_report.md
-└── release_report.md
+└── README.md
 
 ```
 
