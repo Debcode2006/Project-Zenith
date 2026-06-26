@@ -392,7 +392,7 @@ cp .env.example .env        # then fill in optional keys (N2YO_API_KEY, GEMINI_A
 
 **Backend environment variables** (`backend/.env`):
 
-| Variable | Required | Description |
+| Variable | Default | Description |
 |----------|:--------:|-------------|
 | `PORT` | No | API port (default `8000`) |
 | `N2YO_API_KEY` | Optional | Enables real ISS visible-pass windows |
@@ -556,7 +556,7 @@ Project Zenith was built using several outstanding open-source projects and publ
 * **CelesTrak**, **Open Notify**, and **N2YO** — satellite orbital data, live ISS tracking, and pass predictions.
 * **Google Gemini** — AI-powered sky narration.
 * **CesiumJS** — interactive 3D geospatial visualization.
-* **SunCalc** (by Vladimir Agafonkin, MIT License) — astronomical calculations for the Sun and Moon.
+* **SunCalc** (MIT License) — astronomical calculations for the Sun and Moon.
 * **AstralWeb Innovate 2026** — for providing the opportunity and inspiring the development of Project Zenith.
 
 <div align="center">
